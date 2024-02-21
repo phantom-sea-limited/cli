@@ -38,6 +38,7 @@ const command: commands[] = [
             m.cache.save()
             m.Tip("\n已保存\n")
         },
+        help: "设置爬虫使用的cookie"
     },
     {
         priority: 49,
@@ -45,6 +46,7 @@ const command: commands[] = [
         async func(input, m) {
             m.registerTask(new ListTask(new URL(input)))
         },
+        help: "测试功能，请忽略"
     }
 ]
 

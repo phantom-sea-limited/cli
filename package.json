@@ -1,6 +1,6 @@
 {
   "name": "@phantom-sea-limited/cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CrawlerCli",
   "bin": {
     "@phantom-sea-limited/cli": "./dist/index.js"
